@@ -1,0 +1,36 @@
+body 
+{
+	font-family: Helvetica;
+	margin:0;
+}
+
+#container
+{
+	width: 30%;
+	padding: 0;
+	border: 10px solid blanchedalmond ;
+	margin: 0 auto;
+}
+#Kopf 
+{
+	text-align: left;
+	font-size:25px;
+	font-weight: bold;
+	color: #000000;
+	background-color: rgb(240, 240, 240);
+	padding: 10mm;
+	margin: 0.5;
+}
+
+#Beschreibung
+{
+	font-weight: lighter;
+	font-style: italic;
+}
+
+#sponsors
+{
+	text-align: right;
+	padding-bottom: ;
+	
+}
