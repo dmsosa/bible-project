@@ -1,7 +1,7 @@
 body 
 {
-	font-family: Helvetica;
-	margin:0;
+	font-family: 'PT Sans', sans-serif;
+	margin: auto;
 }
 
 #container
@@ -9,7 +9,7 @@ body
 	width: 30%;
 	padding: 0;
 	border: 10px solid blanchedalmond ;
-	margin: 0 auto;
+	margin-left: 15%;
 }
 #Kopf 
 {
@@ -18,19 +18,24 @@ body
 	font-weight: bold;
 	color: #000000;
 	background-color: rgb(240, 240, 240);
-	padding: 10mm;
-	margin: 0.5;
+	margin: auto;
 }
-
+#Kopf #logo{
+	width: 60px;
+	vertical-align: middle;
+}
 #Beschreibung
 {
 	font-weight: lighter;
 	font-style: italic;
 }
 
-#sponsors
-{
-	text-align: right;
-	padding-bottom: ;
+#publicity{
+	width:20px;
+}
+
+#subscribe{
+	font-style: italic;
+	text-decoration-line: underline;
 	
 }
