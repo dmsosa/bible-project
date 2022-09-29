@@ -4,26 +4,41 @@ body
 	margin: auto;
 }
 
-#container
+#box
 {
-	width: 30%;
-	padding: 0;
-	border: 10px solid blanchedalmond ;
-	margin-left: 15%;
+	margin: 15px;
+	border: 10px solid black ;
+	background:linear-gradient(to top, rgb(237, 234, 231), rgb(109, 26, 26));
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+	background-position: center;
+	box-sizing:content-box;
+}
+
+.header{
+	color: #000000;
+	padding-left: 16px;
+	padding-right: 16px;
+	font-weight: bold;
+	font-size: 22px;
+
 }
 #Kopf 
 {
-	text-align: left;
-	font-size:25px;
-	font-weight: bold;
-	color: #000000;
-	background-color: rgb(240, 240, 240);
-	margin: auto;
+
+	background: linear-gradient(to top, rgb(210, 209, 209), #FFFFFF);
+	border: 0px;
+	border-radius: 5mm;
+
 }
-#Kopf #logo{
+
+#logo{
 	width: 60px;
-	vertical-align: middle;
+	height: 60px;
+	vertical-align: middle;	
 }
+
 #Beschreibung
 {
 	font-weight: lighter;
