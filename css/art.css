@@ -6,14 +6,20 @@ body
 
 #box
 {
-	margin: 15px;
+	margin: 50px;
 	border: 10px solid black ;
 	background:linear-gradient(to top, rgb(237, 234, 231), rgb(109, 26, 26));
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-attachment:fixed;
 	background-position: center;
-	box-sizing:content-box;
+	padding: 5mm;
+}
+#gif{
+	width: 250px;
+}
+#Beschreibung{
+	border: solid;
 }
 
 .header{
@@ -46,23 +52,19 @@ body
 	height: 10px;
 	cursor: pointer;
 }
-#Nachricht{
-	margin-right:0;
-	border: solid;
-}
-#search{
+
+#lup{
 	height: 25px;
 	opacity: 70%;
-	position: relative;
-	vertical-align: middle;
-	/* margin-left:50%; */
+	display: flex;
+	margin-right: 0;
+	border: solid;
 }
-#Beschreibung
-{
-	font-weight: lighter;
+.schreib{
 	font-style: italic;
+	font-weight: lighter;
+	font-size: 15px;
 }
-
 #publicity{
 	width:20px;
 }
