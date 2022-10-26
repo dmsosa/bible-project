@@ -42,8 +42,9 @@ body
 	vertical-align: middle;	
 }
 #sear{
-	position: fixed;
+	position: relative;
 	height: 10px;
+	cursor: pointer;
 }
 #Nachricht{
 	margin-right:0;
