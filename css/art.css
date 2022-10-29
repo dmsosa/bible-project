@@ -18,17 +18,17 @@ body
 #gif{
 	width: 250px;
 }
-#Beschreibung{
-	border: solid;
-}
 
-.header{
-	color: #000000;
+.header {
+	margin: 0;
+	display: flex;
 	padding-left: 16px;
 	padding-right: 16px;
-	font-weight: bold;
-	font-size: 22px;
+	background: linear-gradient(to top, #ffffffd3, #ffffff);
+	border-radius: 25%;
+	align-content: center;
 	border: solid;
+
 }
 #Kopf 
 {
@@ -41,7 +41,7 @@ body
 
 }
 
-#logo{
+.logo{
 	margin-left: auto;
 	width: 60px;
 	height: 60px;
