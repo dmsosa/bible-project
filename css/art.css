@@ -1,12 +1,13 @@
 body 
 {
-	font-family: 'PT Sans', sans-serif;
-	margin: auto;
+	font-family:sans-serif,'Arial Narrow Bold', sans-serif;
 }
 
-#box
-{
+.box {
+
 	margin: 50px;
+	width: fit-content;
+	height: fit-content;
 	border: 10px solid black ;
 	background:linear-gradient(to top, rgb(237, 234, 231), rgb(109, 26, 26));
 	background-repeat:no-repeat;
@@ -14,58 +15,41 @@ body
 	background-attachment:fixed;
 	background-position: center;
 	padding: 5mm;
+	clear: left;
+
 }
-#gif{
+
+
+.content {
 	width: 250px;
 }
 
+.icon {
+	color: black;
+}
 .header {
-	margin: 0;
-	display: flex;
-	padding-left: 16px;
-	padding-right: 16px;
-	background: linear-gradient(to top, #ffffffd3, #ffffff);
-	border-radius: 25%;
+
+	background: linear-gradient(to top, #c4c4c4d3, #ffffff);
+	border-radius: 15%;
 	align-content: center;
-	border: solid;
-
-}
-#Kopf 
-{
-	position: sticky;
-	top:0cm;
-	background: linear-gradient(to top, rgb(210, 209, 209), #FFFFFF);
-	border: 0px;
-	border-radius: 5mm;
-	 
+	
 
 }
 
-.logo{
+.logo {
 	margin-left: auto;
 	width: 60px;
 	height: 60px;
 	vertical-align: middle;	
 }
-#sear{
-	position: relative;
-	height: 10px;
-	cursor: pointer;
-}
+.schreib {
 
-#lup{
-	height: 25px;
-	opacity: 70%;
-	display: flex;
-	margin-right: 0;
-	border: solid;
-}
-.schreib{
 	font-style: italic;
 	font-weight: lighter;
 	font-size: 15px;
 }
 #publicity{
+
 	width:20px;
 }
 
@@ -74,3 +58,4 @@ body
 	text-decoration-line: underline;
 	
 }
+
