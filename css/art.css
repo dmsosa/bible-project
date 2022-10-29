@@ -1,10 +1,41 @@
-body 
-{
-	font-family:sans-serif,'Arial Narrow Bold', sans-serif;
+body {
+	font-family:'PT Sans', sans-serif;
+}
+
+.header {
+	padding: 5px;
+	padding-right: 15px;
+	display: flex;
+	margin-top: 5px;
+	background: linear-gradient(to top, #c4c4c4d3, #ffffff);
+	border-radius: 15%;
+	align-content: center;
+	justify-content: space-between;
+}
+
+.logo {
+	margin-left: 0px;
+	width: 60px;
+	height: 60px;
+	vertical-align: middle;
+}
+.tagkopf {
+	font-weight: bold;
+}
+.nav {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	gap: 12px;
+	list-style-type: none;
+}
+
+.nav li a .icon {
+	color: black;
+	font-size: 7mm;
 }
 
 .box {
-
 	margin: 50px;
 	width: fit-content;
 	height: fit-content;
@@ -16,31 +47,10 @@ body
 	background-position: center;
 	padding: 5mm;
 	clear: left;
-
 }
-
 
 .content {
 	width: 250px;
-}
-
-.icon {
-	color: black;
-}
-.header {
-
-	background: linear-gradient(to top, #c4c4c4d3, #ffffff);
-	border-radius: 15%;
-	align-content: center;
-	
-
-}
-
-.logo {
-	margin-left: auto;
-	width: 60px;
-	height: 60px;
-	vertical-align: middle;	
 }
 .schreib {
 
@@ -48,12 +58,12 @@ body
 	font-weight: lighter;
 	font-size: 15px;
 }
-#publicity{
+#publicity {
 
 	width:20px;
 }
 
-#subscribe{
+#subscribe {
 	font-style: italic;
 	text-decoration-line: underline;
 	
