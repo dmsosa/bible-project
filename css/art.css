@@ -1,73 +1,71 @@
-body 
-{
-	font-family: 'PT Sans', sans-serif;
-	margin: auto;
+body {
+	font-family:'PT Sans', sans-serif;
 }
 
-#box
-{
-	margin: 15px;
+.header {
+	padding: 5px;
+	padding-right: 15px;
+	display: flex;
+	margin-top: 5px;
+	background: linear-gradient(to top, #c4c4c4d3, #ffffff);
+	border-radius: 15%;
+	align-content: center;
+	justify-content: space-between;
+}
+
+.logo {
+	margin-left: 0px;
+	width: 60px;
+	height: 60px;
+	vertical-align: middle;
+}
+.tagkopf {
+	font-weight: bold;
+}
+.nav {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	gap: 12px;
+	list-style-type: none;
+}
+
+.nav li a .icon {
+	color: black;
+	font-size: 7mm;
+}
+
+.box {
+	margin: 50px;
+	width: fit-content;
+	height: fit-content;
 	border: 10px solid black ;
 	background:linear-gradient(to top, rgb(237, 234, 231), rgb(109, 26, 26));
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-attachment:fixed;
 	background-position: center;
-	box-sizing:content-box;
+	padding: 5mm;
+	clear: left;
 }
 
-.header{
-	color: #000000;
-	padding-left: 16px;
-	padding-right: 16px;
-	font-weight: bold;
-	font-size: 22px;
-	border: solid;
+.content {
+	width: 250px;
 }
-#Kopf 
-{
-	position: sticky;
-	top:0cm;
-	background: linear-gradient(to top, rgb(210, 209, 209), #FFFFFF);
-	border: 0px;
-	border-radius: 5mm;
-	 
+.schreib {
 
-}
-
-#logo{
-	margin-left: auto;
-	width: 60px;
-	height: 60px;
-	vertical-align: middle;	
-}
-#sear{
-	position: fixed;
-	height: 10px;
-}
-#Nachricht{
-	margin-right:0;
-	border: solid;
-}
-#search{
-	height: 25px;
-	opacity: 70%;
-	position: relative;
-	vertical-align: middle;
-	/* margin-left:50%; */
-}
-#Beschreibung
-{
-	font-weight: lighter;
 	font-style: italic;
+	font-weight: lighter;
+	font-size: 15px;
 }
+#publicity {
 
-#publicity{
 	width:20px;
 }
 
-#subscribe{
+#subscribe {
 	font-style: italic;
 	text-decoration-line: underline;
 	
 }
+
