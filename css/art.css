@@ -63,13 +63,27 @@ body {
 }
 
 .footer {
-	height: 3cm;
+	height: 5cm;
 	background-color: rgb(113, 113, 113);
 	justify-content: center;
 	text-align: center;
 	padding: 25px;
 }
-.footer p {
+
+.footer .b {
+	float: left;
+	border: solid;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+.the {
+	text-align: center;
+}
+
+
+.footer h6 {
+	clear: left;
 	font-weight: bold;
 	text-shadow: 2px 2px 8px rgb(194, 152, 62);
 	text-decoration-line: underline;
