@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <meta charset= "UTF-8">
+    <meta name="author" content="Duvi"/>
+    <meta name="description" content="This is the page of the BibleProject made by a fan">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <head>
         <title> BibleProject </title>
         <link rel="stylesheet" href="css/art.css" />
@@ -9,31 +12,38 @@
     </head>   
 
     <body> 
-        <div class="header">
+        <header>
             <div>
-            <a href="https://bibleproject.com/"><img class = "logo" src="pictures/bible.png"/></a>
-            <span class = "tagkopf">BibleProject</span> 
+            <a class="logobutton" href="index.html"><img class="logo" src="pictures/bible.png"/></a>
+            <span class="tagkopf">BibleProject</span> 
             </div>
-            <ul class = "nav">
-                <li class = "search"><a href=""><i class="fa-solid fa-magnifying-glass icon"></i></a></li>
-                <li class = "news"><a href="https://bibleproject.com/blog/"><i class="fa-solid fa-newspaper icon"></i></a></li>
-                <li class = "account"><a href=""><i class="fa-solid fa-user icon"></i></a></li>
+            <ul class="nav">
+                <li class = "nav-item"><a href=""><i class="fa-solid fa-magnifying-glass icon"></i></a></li>
+                <li class = "nav-item"><a href="https://bibleproject.com/blog/"><i class="fa-solid fa-newspaper icon"></i></a></li>
+                <li class = "nav-item"><a href=""><i class="fa-solid fa-user icon"></i></a></li>
             </ul>
-        </div>
-
-        <div class="box">
-            <img class="content" src="pictures/jesus.jpg">
-            <p class="schreib"> This is the path that leads to Jesus </p>
-        </div>
-      
-
-        <div class="box">
-            <img class="content" src="https://d1bsmz3sdihplr.cloudfront.net/media/Brand/New%20Brand%202020/Press%20Release/bibleproject-logo-color-demo.gif" alt="funny gif"/>
-            <p class="schreib"> Ready to know him? </p>
-        </div>
-
-        <div class = "footer">
+        </header>
+        <main>
+            <div class="aside">
+                <div class="circle one"></div>
+                <div class="circle two"></div>
+                <div class="circle three"></div>
+            </div>
+            <div class="content">
+                <div class="box">
+                    <img class="egami" src="pictures/jesus.jpg">
+                    <p class="schreib"> This is the path that leads to Jesus </p>
+                </div>
             
+
+                <div class="box">
+                    <img class="egami" src="https://d1bsmz3sdihplr.cloudfront.net/media/Brand/New%20Brand%202020/Press%20Release/bibleproject-logo-color-demo.gif" alt="funny gif"/>
+                    <p class="schreib"> Ready to know him? </p>
+                </div>
+            </div>
+        </main>
+
+        <footer>    
             <div class = "the">
                 <div class = "b">
                     <h2> Stay Updated</h2>
@@ -56,6 +66,6 @@
             </div>
             
             <h6>&copy; 2022, All Rights Reserved</h6>
-        </div>
+        </footer>
     </body>
 </html>
