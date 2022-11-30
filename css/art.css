@@ -83,7 +83,7 @@ main {
 	margin: 2rem;
 }
 .circle-logo {
-	height: 15rem;
+	height: 100%;
 	width: 15rem;
 }
 
@@ -117,9 +117,8 @@ main {
 	margin: 0 auto 1rem;
 	background-image: url(/pictures/TBP-Gospel-logo.jpg);
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment:fixed;
-	background-position: static;
+	background-position:center;
+	background-attachment: local;
 	width: 80%;
 	height: 40rem;
 }
