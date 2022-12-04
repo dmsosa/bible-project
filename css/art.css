@@ -3,7 +3,10 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
+:root {
+	--z-1: 100;
+	--z-9: 900;
+}
 html {
 	font-size: 62.5%;
 }
@@ -13,13 +16,13 @@ body {
 }
 
 header {
-	height: 8rem;
-	margin: 0.5rem 2rem 2rem;
-	padding: 0.5rem 10px;
+	font: 1.125rem / 1.25 MuseoModerno, sans-serif;
 	display: flex;
-	background: linear-gradient(to bottom, hsl(45 100% 99%) 50%, hsl(45 10% 85%));
-	border-radius: 5mm;
-	opacity: 100%;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 2rem;
+	color: white;
+	background: linear-gradient(250deg, hsl(300, 40%, 10%), hsl(300, 40%, 20%));
 }
 
 .logo {
@@ -37,37 +40,62 @@ header {
 	bottom: 50%;
 }
 
-nav {
-	display: block;
-	margin: 2rem 0.5rem 2rem auto;
-	height: fit-content;
-	font-size: 3rem;
+.nav {
+	width: 60%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.item-top {
+	margin: 0 1rem;
+	position:relative;
+}
+.nav-top
+{
+	display: flex;
+	align-items: stretch;
 }
 
-.nav-item
-{
-	display: inline;
-	height: fit-content;
-	width: fit-content;
-	margin: 1rem 1rem;
-}
-.nav-item h4 {
-	display: inline;
-}
-.nav-item:hover{
+.nav-top:hover{
 	cursor: pointer;
 }
 
-nav a {
+.link {
+	color:inherit;
+	display: block;
 	text-decoration: none;
 }
-
-.nav-item-bot {
+.link-top {
+	padding: 1.25rem, 1.5rem;
+}
+.link-bot {
+	padding: 0.75rem 1.5rem;
+}
+.nav-bot {
 	display: none;
 }
-.icon {
-	color: black;
+.item-top:hover .link-top,
+.item-top:focus .link-top,
+.item-top:focus-within .link-top  {
+	background-color: rgb(30, 65, 54);
 }
+.link-bot:hover,
+.link-bot:focus {
+	background-color: rgb(125, 168, 169);
+}
+
+.item-top:hover .nav-bot,
+.item-top:focus .nav-bot,
+.item-top:focus-within .nav-bot  {
+	display: block;
+	position: absolute;
+	top:100%;
+	right: 0;
+	width: 15rem;
+	background-color: black;
+	text-align: center;
+}
+
 
 main {
 	display: flex;
